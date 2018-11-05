@@ -12,4 +12,8 @@ public class EurekaDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaDemoApplication.class, args);
 	}
+
+	public int add(int a, int b){
+		return a+b;
+	}
 }
